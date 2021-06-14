@@ -31,10 +31,10 @@ Download sample video at [here](https://drive.google.com/file/d/1CelYAkWzbIAuUMp
 
 ## Run the Vehicle Counting Code with YOLOv4 and DeepSORT
 ```bash
-Convert darknet weights to tensorflow model
+# Convert darknet weights to tensorflow model
 python save_model.py --model yolov4 
 
-Run the Vehicle Counting Code with YOLOv4 and DeepSORT on video
+# Run the Vehicle Counting Code with YOLOv4 and DeepSORT on video
 python vehicle_count_velocity.py --video ./data/video/MVI_2966.MP4 --output ./outputs/output.mp4 --model yolov4
 ```
 
